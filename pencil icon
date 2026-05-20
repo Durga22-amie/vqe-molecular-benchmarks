@@ -1,0 +1,17 @@
+# vqe-molecular-benchmarks
+Reproducible VQE benchmarks for H₂, LiH, N₂ using Jordan-Wigner, Bravyi-Kitaev, Parity mappings
+# VQE Molecular Benchmarks
+
+Reproducible benchmarks for Variational Quantum Eigensolver (VQE) across 
+three qubit mappings (Jordan-Wigner, Bravyi-Kitaev, Parity) and three 
+molecules (H₂, LiH, N₂).
+
+## Reproduce Everything in 3 Commands
+
+```bash
+git clone https://github.com/YOUR_USERNAME/vqe-molecular-benchmarks
+cd vqe-molecular-benchmarks
+pip install -r requirements.txt && python run_all.py
+```
+
+## Repository Structure
